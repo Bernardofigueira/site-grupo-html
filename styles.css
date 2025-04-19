@@ -147,7 +147,7 @@ footer p img{
     padding: 10px;
 }
 
-#btn-enviar{
+.btn-enviar{
     background-color: #04991c;
     padding: 16px;
     color: #fff;
@@ -161,4 +161,23 @@ h3 {
 }
 .btn-check{
 position: relative !important;
+}
+.area-mapa{
+    border: 1px solid red;
+    border-radius: 15px;
+    width: auto;   
+    height: auto; 
+    padding: 32px;
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    
+}
+#mapa{
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+.rodape-contato{
+    text-align: center;
 }
