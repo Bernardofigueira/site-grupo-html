@@ -1,0 +1,164 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: 0; 
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li a{
+    color: red;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.boas-vindas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 200px;
+    background: linear-gradient(to left,red,black);
+}
+.texto {
+    font-size: 40px;
+    font-style: italic;
+}
+.idolos{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+.biografia{
+    padding: 60px;
+    text-align:start ;
+    color: white;
+    font-size: 23px ;
+}
+.rodape{
+    background: linear-gradient(to right, red,black);
+    color: #fff;
+    padding: 30px;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+footer {
+    background: linear-gradient(to right, red,black);
+    color: #fff;
+    padding: 30px;
+    min-height: 100%;
+    
+}
+.titulo-sobre h1{
+    text-align: center;
+    color: red;
+}
+.ninho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragrafo {
+    padding: 50px;
+}
+.paragrafo p a{
+    color: red;
+}
+.paragrafo p {
+    text-align: justify;
+    color: #fff;
+    font-size: 18px;
+}
+.paragrafo h1{
+    color: red;
+}
+.programadores{
+    text-align: center;
+    padding: 60px;
+    
+}
+footer h2{
+text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+}
+footer p img{
+    width: 50px;
+    
+}
+.linhaUm{
+    display: flex;
+    justify-content: space-around;
+}
+.linhaDois{
+    display: flex;
+    justify-content: space-around;
+}
+.contato {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 100px;
+    color: #fff;    
+}
+
+.area-formulario {
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 500px;   
+    height: auto; 
+    padding: 32px;
+    display: flex;
+    flex-direction: column;       
+}
+.forumlario {
+    width: 400px;
+    
+}
+
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 10px 0;   
+}
+
+.campos input {
+    border:1px solid red;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#btn-enviar{
+    background-color: #04991c;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 120px;
+}
+h3 {
+    margin-top: 16px;
+}
+.btn-check{
+position: relative !important;
+}
