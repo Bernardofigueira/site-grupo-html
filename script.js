@@ -1,5 +1,7 @@
+
 const formulario = document.querySelector('form')
 formulario.addEventListener('submit',function(event) {
+   /* Se clicar mais de uma vez ele espera e não executa varios alertas */
     event.preventDefault()
     let nome = formulario.nome.value;
     let email = formulario.email.value;

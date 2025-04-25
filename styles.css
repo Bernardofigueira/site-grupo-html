@@ -3,6 +3,7 @@
    padding: 0;
    border: 0;
    
+   
 }
 body{
     background-color: black;
@@ -34,6 +35,10 @@ header nav ul li a{
     margin: 40px;
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main{
+    min-height: 80vh;
+    height: max-content; 
 }
 .boas-vindas{
     display: flex;
@@ -85,6 +90,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.programadore h2{
+    color: red;
 }
 .paragrafo {
     padding: 50px;
@@ -193,9 +201,9 @@ position: relative !important;
     padding: 15px;
     border-radius: 15px;
 }
-.rodape-contato{
-    text-align: center;
-}
+    .rodape-contato{
+        text-align: center;
+    }
 @media (max-width: 768px) {
     header {
         flex-direction: column;
